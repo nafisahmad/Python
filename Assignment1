@@ -1,0 +1,5 @@
+#sort in decending order
+
+li=[int(i) for i in input("Enter the list values : ").split()]
+li.sort(reverse=True)
+print("Decending sorted list = " , li)
