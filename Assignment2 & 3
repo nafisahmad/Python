@@ -1,0 +1,45 @@
+#Assignment2 - remove all occurances of an element from a list
+
+def remove_items(list, item):
+      
+    # remove the item for all its occurrences
+    for i in list:
+        if(i == item):
+            list.remove(i)
+  
+    return test_list
+    
+if __name__=="__main__":
+      
+   list = [1, 3, 4, 6, 5, 1]
+  
+    # the item which is to be removed
+    item = 1
+  
+    print ("original list : " + str(list))
+ 
+    res = remove_items(list, item)
+    
+    print ("The new list : " + str(res))
+    
+    
+    
+    
+    -----------------------------------------------------------------------------------------------------
+    
+    
+    #assignment3 - Check whether string is pangram
+    
+    import string
+  
+alphabet = set(string.ascii_lowercase)
+  
+def ispangram(str): 
+     return not set(alphabet) - set(str)
+  
+string = 'the quick brown fox jumps over the lazy dog'
+if(ispangram(string) == True):
+    print("Yes")
+else:
+    print("No")
+    
