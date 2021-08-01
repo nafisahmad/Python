@@ -1,0 +1,30 @@
+*** Hey you are a chemist from India and you work with degree celsius in your day to day life but due to a project your company had collaborated with a MNC company,
+where the chemists use degree frainite for their purposes, and to maintain collaboration consistent we want to have a easy degree conversion, 
+
+Please develop a python based degree converter which takes °C value and give you output of °F 
+
+
+Input :
+
+°C -> 50
+
+Output :
+
+°F -> 122 
+
+Formula for Conversion :
+
+___°C × 9/5) + 32 = ___°F ***
+
+
+```
+# Assignment 4 (Final Project)
+# Temprature Converter
+
+print("Welcome to the Temperature Converter")
+
+temp = eval(input("Enter the Temperature : "))
+converted_temp = (temp * 9/5) + 32
+
+print("Temperature Entered           : ",temp,'\N{DEGREE SIGN}C')
+print("Converted Temperature is : ",converted_temp,'\N{DEGREE SIGN}F') ```
